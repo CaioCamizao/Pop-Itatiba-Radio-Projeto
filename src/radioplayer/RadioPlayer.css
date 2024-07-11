@@ -1,0 +1,13 @@
+.radio-player-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.radio-player {
+    width: 100%;
+}
