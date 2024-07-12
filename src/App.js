@@ -1,5 +1,6 @@
 import './App.css';
 import ComponentBackground from './backgroundsite/Background';
+import Icones from './icons/IconWhatsapp';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <header className="App-header">
         <ComponentBackground />
       </header>
+      <Icones />
     </div>
   );
 }

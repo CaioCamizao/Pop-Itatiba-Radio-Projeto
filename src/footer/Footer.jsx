@@ -1,5 +1,5 @@
 import React from "react";
-import Insta
+import './Footer.css';
 
 const Footer = () => {
     return (
@@ -8,3 +8,5 @@ const Footer = () => {
         </div>
     )
 }
+
+export default Footer;

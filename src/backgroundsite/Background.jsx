@@ -1,5 +1,5 @@
 import React from "react";
-import Imagem from './Vale_quanto_toca-690113_1920-1080-0-0.webp'
+import Imagem from './ImagemPopFundo.webp'
 import './Background.css'
 
 const ComponentBackground = () => {

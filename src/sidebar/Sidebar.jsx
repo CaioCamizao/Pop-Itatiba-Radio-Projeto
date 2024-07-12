@@ -1,6 +1,6 @@
 import React from 'react';
 import './Sidebar.css';
-import Imagem from './pop.png';
+import Imagem from './PopFinal.png';
 
 const SidebarComponent = () => {
     return (
