@@ -3,9 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
-import RadioPlayer from './radioplayer/RadioPlayer';
+import RadioPlayer from './radio-player/RadioPlayer';
 import SidebarComponent from './sidebar/Sidebar';
-import ComponentBackground from './backgroundsite/Background';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

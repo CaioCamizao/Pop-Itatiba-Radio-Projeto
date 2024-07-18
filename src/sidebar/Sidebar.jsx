@@ -9,7 +9,7 @@ const SidebarComponent = () => {
                 <img src={Imagem} alt='Top Itatiba'/>
             </div>
             <ul className='sidebar-menu'>
-                <li><a href='home'>Home</a></li>
+                <li><a href='Home'>Home</a></li>
                 <li><a href='Noticias'>Notícias</a></li>
                 <li><a href='Programacao'>Programação</a></li>
                 <li><a href='Entretenimento'>Entretenimento</a></li>

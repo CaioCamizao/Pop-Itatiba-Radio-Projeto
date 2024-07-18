@@ -13,12 +13,12 @@
   margin-right: 100px;
   width: 100px;
   cursor: pointer;
-  height: auto;
+  height: 70px;
 }
 
 .sidebar img {
   width: 100px;
-  height: auto;
+  height: 70px;
 }
 
 .sidebar-menu {
@@ -38,9 +38,9 @@
   text-decoration: none;
   color: rgb(0, 0, 0);
   transition: transform 0.3s ease;
-  display: inline-block; /* Importante para aplicar transformações corretamente */
+  display: inline-block;
 }
 
 .sidebar-menu li a:hover {
-  transform: translateY(-5px); /* Move o texto para cima por 5 pixels ao passar o cursor */
+  transform: translateY(-5px);
 }
