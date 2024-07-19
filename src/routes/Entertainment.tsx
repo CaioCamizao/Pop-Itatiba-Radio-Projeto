@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Programacao= () => {
+const Entertainment = () => {
     return(
         <div>
-            <Link to="/Programacao">Programacao</Link>
+            <Link to="/Entertainment">Entretenimento</Link>
         </div>
     )
 }
 
-export default Programacao;
+export default Entertainment;

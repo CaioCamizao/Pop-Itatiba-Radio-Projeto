@@ -10,7 +10,7 @@ const RadioPlayer = () => {
         url="https://stream.zeno.fm/r6bg6du4by8uv"
         playing
         controls
-        volume={0.5}
+        volume={0.05}
       />
       </div>
     );

@@ -10,13 +10,18 @@ import Noticias from './routes/News';
 import Programacao from './routes/Program';
 import Entretenimento from './routes/Entertainment';
 import Login from './routes/Login';
+import PaginaNaoEncontrada from './routes/PageNotFound';
+import SideBar from './sidebar/Sidebar';
+import RadioPlayer from './radio-player/RadioPlayer';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <header className="App-header">
+          <SideBar />
           <ComponentBackground />
+          <RadioPlayer />
         </header>
 
         <Routes>
@@ -26,6 +31,7 @@ function App() {
           <Route path="/Entretenimento" element={<Entretenimento />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Cadastrar" element={<Cadastrar />} />
+          <Route path="*" element={<PaginaNaoEncontrada />} />
         </Routes>
 
         <footer>

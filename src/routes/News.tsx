@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Cadastrar= () => {
+const News = () => {
     return(
         <div>
-            <Link to="/Cadastrar">Cadastrar</Link>
+            <Link to="/News">Noticias</Link>
         </div>
     )
 }
 
-export default Cadastrar;
+export default News;

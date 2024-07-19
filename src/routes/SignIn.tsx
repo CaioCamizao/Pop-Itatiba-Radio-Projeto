@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Noticias = () => {
+const SignIn= () => {
     return(
         <div>
-            <Link to="/Noticias">Noticias</Link>
+            <Link to="/SignIn">Cadastrar</Link>
         </div>
     )
 }
 
-export default Noticias;
+export default SignIn;
