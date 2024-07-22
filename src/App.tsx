@@ -4,15 +4,15 @@ import './App.css';
 import ComponentBackground from './background-site/Background';
 import Footer from './footer/Footer';
 import Icones from './icons/IconWhatsapp';
-import Home from './routes/Home';
-import Cadastrar from './routes/SignIn';
-import Noticias from './routes/News';
-import Programacao from './routes/Program';
-import Entretenimento from './routes/Entertainment';
-import Login from './routes/Login';
-import PaginaNaoEncontrada from './routes/PageNotFound';
 import SideBar from './sidebar/Sidebar';
 import RadioPlayer from './radio-player/RadioPlayer';
+import Home from './routes/Home';
+import Login from './routes/Login';
+import News from './routes/News';
+import Program from './routes/Program';
+import Entertainment from './routes/Entertainment';
+import SignIn from './routes/SignIn';
+import PageNotFound from './routes/PageNotFound';
 
 function App() {
   return (
@@ -26,12 +26,12 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Noticias" element={<Noticias />} />
-          <Route path="/Programacao" element={<Programacao />} />
-          <Route path="/Entretenimento" element={<Entretenimento />} />
+          <Route path="/Noticias" element={<News />} />
+          <Route path="/Programacao" element={<Program />} />
+          <Route path="/Entretenimento" element={<Entertainment />} />
           <Route path="/Login" element={<Login />} />
-          <Route path="/Cadastrar" element={<Cadastrar />} />
-          <Route path="*" element={<PaginaNaoEncontrada />} />
+          <Route path="/Cadastrar" element={<SignIn />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
 
         <footer>

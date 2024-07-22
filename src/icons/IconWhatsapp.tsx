@@ -6,7 +6,7 @@ const Icones = () => {
     return (
         <div className="whatsapp-icon-container">
             <a href="https://wa.me/11947258692" target="_blank" rel="noopener noreferrer">
-            <FloatingWhatsApp className="whatsapp-icon" />
+            <FloatingWhatsApp className="whatsapp-icon" phoneNumber={""} accountName={""} />
             </a>
         </div>
     )
