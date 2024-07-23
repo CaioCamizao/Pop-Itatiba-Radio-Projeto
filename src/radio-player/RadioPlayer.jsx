@@ -1,19 +1,19 @@
-import React from 'react';
-import ReactPlayer from 'react-player';
-import './RadioPlayer.css';
+import React from 'react'
+import ReactPlayer from 'react-player'
+import './RadioPlayer.css'
 
 const RadioPlayer = () => {
-    return (
-      <div className="radio-player-container">
+  return (
+    <div className="radio-player-container">
       <ReactPlayer
         className="radio-player"
         url="https://stream.zeno.fm/r6bg6du4by8uv"
         playing
         controls
-        volume={0.05}
+        volume={0.1}
       />
-      </div>
-    );
-  };
+    </div>
+  )
+}
 
-export default RadioPlayer;
+export default RadioPlayer
