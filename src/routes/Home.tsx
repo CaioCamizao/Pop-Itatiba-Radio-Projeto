@@ -1,12 +1,16 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
+import Sidebar from '../sidebar/Sidebar'
+import RadioPlayer from '../radio-player/RadioPlayer'
+import ComponentBackground from '../background-site/Background'
 
 const Home = () => {
-    return(
-        <div>
-            <Link to="/">Home</Link>
-        </div>
-    )
+  return (
+    <div>
+      <Sidebar />
+      <ComponentBackground />
+      <RadioPlayer />
+    </div>
+  )
 }
 
-export default Home;
+export default Home

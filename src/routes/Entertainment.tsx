@@ -1,12 +1,15 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import RadioPlayer from '../radio-player/RadioPlayer'
+import React from 'react'
+import Sidebar from '../sidebar/Sidebar'
+
 
 const Entertainment = () => {
-    return(
-        <div>
-            <Link to="/Entertainment">Entretenimento</Link>
-        </div>
-    )
+  return (
+    <div>
+      <Sidebar />
+      <RadioPlayer />
+    </div>
+  )
 }
 
-export default Entertainment;
+export default Entertainment

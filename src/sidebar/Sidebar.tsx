@@ -11,11 +11,11 @@ const SidebarComponent = () => {
             </div>
             <ul className='sidebar-menu'>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/Noticias">Notícias</Link></li>
-                <li><Link to="/Programacao">Programação</Link></li>
-                <li><Link to="/Entretenimento">Entretenimento</Link></li>
+                <li><Link to="/News">Notícias</Link></li>
+                <li><Link to="/Program">Programação</Link></li>
+                <li><Link to="/Entertainment">Entretenimento</Link></li>
                 <li><Link to="/Login">Login</Link></li>
-                <li><Link to="/Cadastrar">Cadastrar</Link></li>
+                <li><Link to="/SignIn">Cadastrar</Link></li>
             </ul>
         </div>
     );

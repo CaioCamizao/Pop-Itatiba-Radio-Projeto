@@ -1,12 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import RadioPlayer from '../radio-player/RadioPlayer'
+import React from 'react'
+import Sidebar from '../sidebar/Sidebar'
 
 const Login = () => {
-    return(
-        <div>
-            <Link to="/Login">Login</Link>
-        </div>
-    )
+  return (
+    <div>
+      <Sidebar />
+      <RadioPlayer />
+    </div>
+  )
 }
 
-export default Login;
+export default Login

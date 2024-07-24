@@ -1,12 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import RadioPlayer from '../radio-player/RadioPlayer'
+import React from 'react'
+import Sidebar from '../sidebar/Sidebar'
 
 const News = () => {
-    return(
-        <div>
-            <Link to="/News">Noticias</Link>
-        </div>
-    )
+  return (
+    <div>
+      <Sidebar />
+      <RadioPlayer />
+    </div>
+  )
 }
 
-export default News;
+export default News

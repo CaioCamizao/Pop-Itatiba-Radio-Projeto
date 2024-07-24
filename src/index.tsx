@@ -1,17 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import App from './App';
+import React from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import reportWebVitals from './reportWebVitals'
+import App from './App'
 
-ReactDOM.render(
+createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
-);
+)
 
 reportWebVitals((metrics) => {
-  console.log(metrics);
-});
+  console.log(metrics)
+})
