@@ -25,6 +25,7 @@
     "src/**/*.png",
     "src/**/*.webp",
     "src/sidebar/Popfinal.png.d.ts",
-    "src/reportWebVitals.tsx"
-, "src/footer/Footer.jsx"  ],
+    "src/reportWebVitals.tsx",
+    "src/footer/Footer.jsx"
+  ]
 }
