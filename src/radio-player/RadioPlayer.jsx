@@ -11,6 +11,11 @@ const RadioPlayer = () => {
         playing
         controls
         volume={0.1}
+        config={{
+          file: {
+            forceAudio: true
+          }
+        }}
       />
     </div>
   )
